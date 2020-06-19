@@ -22,14 +22,20 @@ Pour le déploiement de ce service, nous avons utiliser l'image docker de keyclo
 >git remote add origin url_de_votre_repo
 
 >git add .
+
 >git commit
+
 >git push -u origin master 
+
 5. Après ces étapes cliquer sur le bouton de déploiement et remplissez les information nécessaire pour la création du dynos
 6. Si vous rencontrez un problème de Permission denied alors faites pour que le script puisse avoir les autorisation nécessaire pour s’exécuter dans l'image docker
 
 >git add --chmod=+x -- docker-entrypoint.sh
+
 >git commit 
+
 >git push origin master
+
 
 **NB** : Sur heroku vous pouvez autoriser le déploiement automatique  qui permet de déployer a chaque fois que vous faites un push sur github.
 
