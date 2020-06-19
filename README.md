@@ -18,7 +18,9 @@ Pour le déploiement de ce service, nous avons utiliser l'image docker de keyclo
 3. Le fichier app.json contient les données de configuration du server a déployer sur heroku. Il est très utile si vous voulez déployer avec votre propre repo.
 4. Apres la création des fichiers comme indiquer ci dessus, on fait un commit du projet vers github
 >git init
+
 >git remote add origin url_de_votre_repo
+
 >git add .
 >git commit
 >git push -u origin master 
